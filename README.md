@@ -23,5 +23,6 @@ echo "this file will include busion"
 echo "here we go"
 ```
 Now you just need to run busion:
-```busion.sh -i File2 -o portabée.sh```
+
+```busion.sh -i File2 -o portable.sh```
 

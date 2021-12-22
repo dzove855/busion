@@ -26,3 +26,6 @@ Now you just need to run busion:
 
 ```busion.sh -i File2 -o portable.sh```
 
+Project using busion:
+https://github.com/dzove855/bar
+

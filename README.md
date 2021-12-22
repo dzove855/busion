@@ -11,15 +11,17 @@ In example:
   
 # Realtime example
 File1:
-`echo "This file will be source"
+```
+echo "This file will be source"
 [[ "busion" == "busion" ]] && echo yeah
-`
+```
 
 File2:
-`echo "this file will include busion"
+```
+echo "this file will include busion"
 # Busion source file File1
 echo "here we go"
-`
+```
 Now you just need to run busion:
-`busion.sh -i File2 -o portabée.sh`
+```busion.sh -i File2 -o portabée.sh```
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/local/bin/bash
 
 # This script is used to copy content from a link into a file based on a comment section
 # This can help to share the same function cross multiple files and generate a final file instead of having multiple files
@@ -64,7 +64,7 @@ declare -A config
 
 tmpFile="$(mktemp)"
 trap '_clean' EXIT
-while read line; do
+while IFS= read -r line; do
     case "$line" in
         *"Busion source"*)
             read _ _ _ include content <<<"$line"
